@@ -24,7 +24,6 @@ head, body{background-color: #8744b4;}
     padding-left: 200px;
     background-color: #8744b4;
     color: #FFD6E0;
-    height: 950px;
 }
 
 #shortabout{
@@ -183,7 +182,7 @@ a{
     text-align: center;
     font-size: xx-large;
     position: absolute;
-    right: 2500px;
+    left: 1010px;
     top: 1050px;
 }
 
@@ -206,3 +205,55 @@ a{
     padding: 650px;
 }
 
+#moreTitle{
+    font-family: LexendZetta, Arial, Helvetica, sans-serif;;
+    color: #FFD6E0;
+    text-align: center;
+    font-size: xx-large;
+    position: absolute;
+    left: 1425px;
+    top: 1050px;
+}
+
+#morePic{
+    size: 200px;
+    position: absolute;
+    left: 1400px;
+    top: 1150px;
+    outline: auto;
+}
+
+#moreDescription{
+    font-family: Amiri, Arial, Helvetica, sans-serif;;
+    color: #FFD6E0;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    left: 800px;
+    top: 700px;
+    padding: 650px;
+}
+
+#CHead{
+    font-family: LexendZetta, Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 300px;
+    padding-left: 200px;
+    background-color: #8744b4;
+    color: #FFD6E0;
+    height: 950px;
+}
+
+#contactmore{
+    font-family: Amiri, Arial, Helvetica, sans-serif;;
+    color: #FFD6E0;
+    font-size: 30px;
+    text-align: center;
+    padding: 200px;
+    position: absolute;
+    right: 430px;
+    top: 725px;
+}
