@@ -1,8 +1,6 @@
 #IntroAbout{
     font-family: LexendZetta, Arial, Helvetica, sans-serif;
     font-size: xx-large;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     padding: 300px;
     padding-left: 200px;
@@ -17,8 +15,6 @@ head, body{background-color: #8744b4;}
 #PHead{
     font-family: LexendZetta, Arial, Helvetica, sans-serif;
     font-size: xx-large;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     padding: 300px;
     padding-left: 200px;
@@ -51,8 +47,6 @@ a{
     right: 25px;
     left: 900px;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #portfolio{
@@ -67,8 +61,6 @@ a{
     right: 180px;
     left: 900px;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #home{
@@ -83,8 +75,6 @@ a{
     right: 345px;
     left: 900px;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #GoBack{
@@ -237,8 +227,6 @@ a{
 #CHead{
     font-family: LexendZetta, Arial, Helvetica, sans-serif;
     font-size: xx-large;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     padding: 300px;
     padding-left: 200px;
