@@ -1,247 +1,79 @@
-#IntroAbout{
-    font-family: LexendZetta, Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-    text-align: center;
-    padding: 300px;
-    padding-left: 200px;
-    background-color: #8744b4;
-    color: #FFD6E0;
-    height: 35px;
+head,body{
+    background-image: url(images/backgroundgradient.jpg);
+    height: 1600px;
 }
 
-
-head, body{background-color: #8744b4;}
-
-#PHead{
-    font-family: LexendZetta, Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+#IntroAbout{
     text-align: center;
-    padding: 300px;
-    padding-left: 200px;
-    background-color: #8744b4;
-    color: #FFD6E0;
+    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-top: 250px;
 }
 
 #shortabout{
-    font-family: Amiri, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    font-size: 30px;
     text-align: center;
-    padding: 260px;
+    font-family: Amiri,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-top: 440px;
 }
 
-a{
-    font-family:LexendZetta, Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-}
-
-#contact{
-    color: #FFD6E0;
-    clear: both;
-    text-align: right;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    bottom: 0;
-    top: 5px;
-    right: 25px;
-    left: 900px;
-    font-weight: bold;
-}
-
-#portfolio{
-    color: #FFD6E0;
-    clear: both;
-    text-align: right;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    bottom: 0;
-    top: 5px;
-    right: 180px;
-    left: 900px;
-    font-weight: bold;
+#Nav{
+    text-align: center;
+    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
 }
 
 #home{
-    color: #FFD6E0;
-    clear: both;
-    text-align: right;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    bottom: 0;
-    top: 5px;
-    right: 345px;
-    left: 900px;
-    font-weight: bold;
+    right: 20px;
+    top: 20px;
 }
 
-#GoBack{
-    font-family:LexendZetta, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    font-size: 30px;
-    text-align: center;
-    padding: 625px
-}
-
-.selected{
-    color: #FFD6E0; 
-}
-
-.textLink{
-    font-family: Amiri, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: white;
-}
-
-#PIntro{
-    font-family: LexendZetta, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: xx-large;
+#contact{
     position: absolute;
-    right: 510px;
-    top: 880px;
+    right: 140px;
+    top: 20px;
 }
 
-#flipTitle{
-    font-family: LexendZetta, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: xx-large;
+#portfolio{
     position: absolute;
-    right: 1545px;
-    top: 1050px;
-}
-
-#FlipPic{
-    size: 200px;
-    position: absolute;
-    right: 1500px;
-    top: 1150px;
-    outline: auto;
-}
-
-#FlipDescription{
-    font-family: Amiri, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    right: 1300px;
-    top: 1150px;
-    padding: 200px;
-}
-
-#zoomTitle{
-    font-family: LexendZetta, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: xx-large;
-    position: absolute;
-    right: 1115px;
-    top: 1050px;
-}
-
-#zoomPic{
-    size: 200px;
-    position: absolute;
-    right: 1100px;
-    top: 1150px;
-    outline: auto;
-}
-
-#zoomDescription{
-    font-family: Amiri, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    right: 500px;
-    top: 800px;
-    padding: 550px;
-}
-
-#websiteTitle{
-    font-family: LexendZetta, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: xx-large;
-    position: absolute;
-    left: 1010px;
-    top: 1050px;
-}
-
-#websitePic{
-    size: 200px;
-    position: absolute;
-    right: 700px;
-    top: 1150px;
-    outline: auto;
-}
-
-#websiteDescription{
-    font-family: Amiri, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    left: 300px;
-    top: 700px;
-    padding: 650px;
-}
-
-#moreTitle{
-    font-family: LexendZetta, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: xx-large;
-    position: absolute;
-    left: 1425px;
-    top: 1050px;
-}
-
-#morePic{
-    size: 200px;
-    position: absolute;
-    left: 1400px;
-    top: 1150px;
-    outline: auto;
-}
-
-#moreDescription{
-    font-family: Amiri, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    left: 800px;
-    top: 700px;
-    padding: 650px;
+    right: 282px;
+    top: 20px;
 }
 
 #CHead{
-    font-family: LexendZetta, Arial, Helvetica, sans-serif;
-    font-size: xx-large;
     text-align: center;
-    padding: 300px;
-    padding-left: 200px;
-    background-color: #8744b4;
-    color: #FFD6E0;
-    height: 950px;
+    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-top: 250px;
 }
 
 #contactmore{
-    font-family: Amiri, Arial, Helvetica, sans-serif;;
-    color: #FFD6E0;
-    font-size: 30px;
     text-align: center;
-    padding: 200px;
-    position: absolute;
-    right: 430px;
-    top: 725px;
+    font-family: Amiri,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-top: 440px;
+}
+
+#PHead{
+    text-align: center;
+    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-top: 250px;
+}
+
+.selected{
+    color: whitesmoke;
+    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+}
+
+.textlink{
+    color: whitesmoke;
+    font-family: Amiri,Arial, Helvetica, sans-serif;
 }
