@@ -3,9 +3,13 @@ head,body{
     height: 1600px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #IntroAbout{
     text-align: center;
-    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-family: LexendZetta  ,Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: white;
     padding-top: 250px;
@@ -13,15 +17,15 @@ head,body{
 
 #shortabout{
     text-align: center;
-    font-family: Amiri,Arial, Helvetica, sans-serif;
+    font-family: Amiri , Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: whitesmoke;
-    padding-top: 440px;
+    padding-top: 370px;
 }
 
 #Nav{
     text-align: center;
-    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-family: LexendZetta , Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: white;
 }
@@ -46,7 +50,7 @@ head,body{
 
 #CHead{
     text-align: center;
-    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-family: LexendZetta , Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: white;
     padding-top: 250px;
@@ -54,26 +58,30 @@ head,body{
 
 #contactmore{
     text-align: center;
-    font-family: Amiri,Arial, Helvetica, sans-serif;
+    font-family: Amiri , Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: whitesmoke;
-    padding-top: 440px;
+    padding-top: 370px;
 }
 
 #PHead{
     text-align: center;
-    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-family: LexendZetta , Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: white;
     padding-top: 250px;
 }
 
+#PMore{
+    padding-top: 370px;
+}
+
 .selected{
     color: whitesmoke;
-    font-family: LexendZetta,Arial, Helvetica, sans-serif;
+    font-family: LexendZetta ,Arial, Helvetica, sans-serif;
 }
 
 .textlink{
     color: whitesmoke;
-    font-family: Amiri,Arial, Helvetica, sans-serif;
+    font-family: Amiri , Arial, Helvetica, sans-serif;
 }
