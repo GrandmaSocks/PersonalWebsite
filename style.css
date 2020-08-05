@@ -7,6 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 
+#PHead{
+height: 500px;
+}
+
 #IntroAbout{
     text-align: center;
     font-family: LexendZetta  ,Arial, Helvetica, sans-serif;
@@ -61,7 +65,7 @@ html{
     font-family: Amiri , Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: whitesmoke;
-    padding-top: 360px;
+    padding-top: 370px;
 }
 
 #PHead{
@@ -73,7 +77,17 @@ html{
 }
 
 #PMore{
-    padding-top: 370px;
+    padding-top: 120px;
+    text-align: center;
+    font-family: Amiri , Arial, Helvetica, sans-serif;
+}
+
+#GOBACK{
+    text-align: center;
+    font-family: Amiri , Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-top: 10px;
 }
 
 .selected{
