@@ -24,6 +24,14 @@ a{
     -webkit-animation: fadein 1s; 
 }
 
+pre{
+    background-color: #3a4750;
+    width: 800px;
+    font-size: large;
+    margin-left: 275px;
+    -webkit-animation: fadein 1s;
+}
+
 .body{
     font-size: x-large;
     font-family: 'Sriracha';
@@ -81,12 +89,23 @@ a{
     -webkit-animation: fadein 1.5s;
 }
 
+#socialsBlogPost{
+    padding-top: 475px;
+    padding-left: 20px;
+    -webkit-animation: fadein 1.5s;
+}
+
 .also{
     font-size: x-large;
     font-family: 'Sriracha';
     text-align: left;
     padding-left: 335px;
     -webkit-animation: fadein 1.5s; 
+}
+
+.blogPreview{
+    margin-left: 275px;
+    -webkit-animation: fadein 1.5s;
 }
 
 @media only screen and (max-width:1500px)
@@ -113,8 +132,22 @@ a{
         -webkit-animation: fadein 1.5s; 
     }
 
+    pre{
+        background-color: #3a4750;
+        width: 800px;
+        font-size: large;
+        margin-left: 20px;
+        -webkit-animation: fadein 1s;
+    }
+
     #socialsBlog{
         padding-top: 130px;
+        padding-left: 20px;
+        -webkit-animation: fadein 1.5s;
+    }
+
+    #socialsBlogPost{
+        padding-top: 145px;
         padding-left: 20px;
         -webkit-animation: fadein 1.5s;
     }
@@ -125,6 +158,11 @@ a{
         text-align: left;
         padding-left: 45px;
         -webkit-animation: fadein 1.5s; 
+    }
+
+    .blogPreview{
+        margin-left: 25px;
+        -webkit-animation: fadein 1.5s;
     }
 
     .also{

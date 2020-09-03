@@ -1,0 +1,129 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link rel="icon" type="image/png" href="images/logo.png">
+
+<head>
+    
+    <div id="styleSheets">
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image" href="images/logo.ico">
+    </div>
+    
+    <title>GrandmaSocks | Blog</title>
+    
+</head>
+
+<body>
+    
+    <h1 class="head">Blog Post #1: Setting up a appealing CSS style to your website in minutes</h1>
+    <p class="body">Hello everyone. I thought I would share how I setup the general style for my website in a couple minutes (ex. Background Color, Font, Font Color, etc...). I think a key to having a smooth looking website is to select a color palette that have colors that flow with each other, the way I get a good color palette quickly is by using <a href="https://colorhunt.co/" target="_blank"> colorhunt.co </a> this website has plenty of color palettes to use with your website. After I select a color palette that I like the look of I head over to my CSS file.</p>
+    <p class="body"></p>
+    <p class="body">Here in my css file I put in a multi line comment the hex colors from the palette</p>
+    <pre>/*
+        #303841 : Black
+        #3a4750 : Grey
+        #00adb5 : Cyan
+        #eeeeee : White
+*/</pre>
+
+<p class="body">I keep this at the top of my css file so I can always refer back to my color palette when setting up my CSS</p>
+
+<p class="body"></p>
+
+<p class="body">Now we need a font. I use <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> for this because it has hundreds of free to use fonts </p>
+<p class="body">Once you find a font on Google Fonts that you like click on it to expand it then select a style you like, after that hit embed then copy that html code to your html page(s) </p>
+
+
+<p class="body"></p>
+
+<p class="body">Then what you should do is define the core of your websites style (ex background color, font, font color)</p>
+    
+<p class="body">so lets start with changing our html element. We are going to want to change the background color to the first and darkest color of our color palette</p>
+<pre>html{
+    background-color: #303841;
+}</pre>
+
+<p class="body">Then lets set our text color and font. for the text color you are usually going to want to use the third color in your palette</p>
+<pre>html{
+    background-color: #303841;
+    color: #eeeeee;
+    font-family: 'Sriracha';
+}
+</pre>
+
+<p class="body"> Pretty much every website has a link somewhere on it, so lets change how are "a" tag are going to look. for this you usually use whatever color contrasts the others in the palette</p>
+<pre>a{
+    color: #00adb5;
+    /* text-decoration: none; */
+}
+</pre>
+
+<p class="body">Ok not lets setup a head and body class we can use to display text across our webpages. I think the text should be indented a little bit also.</p>
+<pre> /* Disclaimer there are better ways to do this I know but this works (:/*
+    .head{
+        font-family: 'Sriracha';
+        font-size: 50px;
+        text-align: left;
+        padding-left: 250px;
+        padding-top: 150px;
+    }
+
+    .body{
+        font-size: x-large;
+        font-family: 'Sriracha';
+        text-align: left;
+        padding-left: 275px;
+    }
+</pre>
+
+<p class="body">Hey wouldn't it look cool if all our elements faded in when the page was loaded? Lets do that.</p>
+<pre>
+    /* first setup our fadein method
+        @-webkit-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+
+            /* now lets add the fade in to our other elements /*
+
+            .head{
+                font-family: 'Sriracha';
+                font-size: 50px;
+                text-align: left;
+                padding-left: 250px;
+                padding-top: 150px;
+                -webkit-animation: fadein 1s; 
+            }
+
+            .body{
+                font-size: x-large;
+                font-family: 'Sriracha';
+                text-align: left;
+                padding-left: 275px;
+                -webkit-animation: fadein 1.5s; 
+            }
+        }
+    */    
+</pre>
+
+<p class="body"> Congrats thats the basic CSS of this website! of course there is more than that and if you would like to see it its on <a href="https://github.com/GrandmaSocks" target="_blank">My Github</a> but thats the basic CSS and after doing this once or twice you can setup the basic styling of your website in a few minutes.</p>
+
+    <a class="bodyLink" href="portfolio.html">My Portfolio</a> 
+    <a class="bodyLink" href="index.html">Home Page</a>
+    <a class="bodyLink" href="blog.html">Blog Page</a>
+    <a class="bodyLink" href="https://github.com/GrandmaSocks" target="_blank">My Github</a>
+    
+    <div id="socialsBlogPost">
+
+        <a href="https://dev.to/grandmasocks" target="_blank"><img  class="social" src="images/icons/devto.png" width="30px"></a>
+        <a href="https://www.reddit.com/user/MinuteMaidLemonade22" target="_blank"><img  class="social" src="images/icons/reddit.png" width="30px"></a>
+        <a href="https://www.youtube.com/channel/UCSsqE5Hf6tuLxDdfM_gJCUA?" target="_blank"><img  class="social" src="images/icons/youtube.png" width="30px"></a>
+    </div>
+    
+</body>
+
+</html>
