@@ -141,8 +141,8 @@ a{
         text-align: left;
         -webkit-animation: fadein 1.5s; 
         text-decoration: underline;
-        margin-right: -30px;
-        margin-left: 35px;
+        margin-right: -0px;
+        margin-left: 10px;
     }
 
     #socialsIndex{
