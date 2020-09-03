@@ -150,4 +150,12 @@ a{
         padding-left: 20px;
         -webkit-animation: fadein 1.5s;
     }
+
+    .bodyPortfolio{
+        font-size: x-large;
+        font-family: 'Sriracha';
+        text-align: left;
+        padding-left: 35px;
+        -webkit-animation: fadein 1.5s; 
+    }
 }
