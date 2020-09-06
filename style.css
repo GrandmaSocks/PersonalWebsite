@@ -84,7 +84,7 @@ pre{
 }
 
 #socialsBlog{
-    padding-top: 345px;
+    padding-top: 50px;
     padding-left: 20px;
     -webkit-animation: fadein 1.5s;
 }
@@ -98,7 +98,7 @@ pre{
 }
 
 .blogPreview{
-    margin-left: 275px;
+    margin-left: 270px;
     -webkit-animation: fadein 1.5s;
 }
 
@@ -135,7 +135,7 @@ pre{
     }
 
     #socialsBlog{
-        padding-top: 130px;
+        padding-top: 50px;
         padding-left: 20px;
         -webkit-animation: fadein 1.5s;
     }
