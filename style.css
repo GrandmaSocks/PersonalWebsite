@@ -1,0 +1,61 @@
+:root{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    position: relative;
+    top: 300px;
+    font-size: 72px;
+    -webkit-animation: fadein 2.0s; 
+}
+
+h2{
+    font-size: 52px;
+    position: relative;
+    top: 260px;
+    -webkit-animation: fadein 2.5s; 
+}
+
+h3{
+    font-size: 52px;
+    position: relative;
+    top: 260px;
+    -webkit-animation: fadein 2.5s; 
+}
+
+a{
+    font-size: 42px;
+    position: relative;
+    color: grey;
+    top: 240px;
+    padding: 15px;
+    -webkit-animation: fadein 3.5s; 
+}
+
+img{
+    position: relative;
+    top: 250px;
+    border: white;
+    border-style:outset;
+    -webkit-animation: fadein 3.5s; 
+}
+
+.ProjectDiv{
+    position: relative;
+    top: 300px;
+    height: 2000px;
+}
+
+.FinishedLink{
+    position: relative;
+    bottom: 240px;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
