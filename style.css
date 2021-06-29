@@ -1,65 +1,147 @@
-:root{
-    background-color: rgb(25, 25, 25);
-    color: white;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-align: center;
-    margin: 0;
+body,html {
+  height: 100%;
+  margin: 0;
 }
 
-h1{
-    position: relative;
-    top: 300px;
-    font-size: 72px;
-    -webkit-animation: fadein 2.0s; 
+:root {
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2{
-    font-size: 52px;
-    position: relative;
-    top: 260px;
-    -webkit-animation: fadein 2.5s; 
+.BackImage {
+  /* The image used */
+  background-image: url("images/CodingWallpaperThing.png");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h3{
-    font-size: 52px;
-    position: relative;
-    top: 260px;
-    -webkit-animation: fadein 2.5s; 
+/* Position text in the middle of the page/image */
+.BackText {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  -webkit-animation: fadein 2.5s;
 }
 
-a{
-    font-size: 42px;
-    position: relative;
-    color: grey;
-    top: 240px;
-    padding: 15px;
-    -webkit-animation: fadein 3.5s; 
+.BackText:hover{
+    transition: 0.4s;
 }
 
-img{
-    position: relative;
-    top: 250px;
-    border: white;
-    border-style:outset;
-    -webkit-animation: fadein 3.5s; 
+.LogoImg{
+    width: 50px;
+    padding: 10px;
 }
 
-.ProjectDiv{
-    position: relative;
-    top: 300px;
-    height: 2000px;
-}
-
-.FinishedLink{
-    position: relative;
-    bottom: 240px;
-}
-
-a:hover{
-    color: antiquewhite;
+.LogoImg:hover{
+    width: 75px;
+    transition: 0.4s;
 }
 
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@-webkit-keyframes soft-blink {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 0.8; }
+}
+
+@keyframes soft-blink {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 0.8; }
+}
+
+.BlinkingArrow{
+    font-size: 50px;
+    height: 55px;
+    bottom: 80px;
+    text-align: center;
+    position: relative;
+    -webkit-animation: 3s soft-blink infinite alternate;
+    animation: 3s soft-blink infinite alternate;
+}
+
+.ArrowLink{
+    color: white;
+    text-decoration: none;
+}
+
+.ArrowLink:hover{
+    transition: 0.4s;
+    font-size: 130px;
+}
+
+.Content{
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    -webkit-animation: fadein 2.5s;
+}
+
+.Content2{
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    -webkit-animation: fadein 2.5s;
+}
+
+.ContentImg{
+    float: left;
+    width: 750px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+}
+
+.ContentTitle{
+    padding: 15px;
+    float: inline-end;
+    text-align: center;
+}
+
+.ContentBody{
+    float: right;
 }
